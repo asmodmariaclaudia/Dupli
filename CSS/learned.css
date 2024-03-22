@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+body{
+    background: linear-gradient(45deg, #090225, #0d0d53, #041f2c, #0a0222);
+    background-repeat: no-repeat;
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+/* navigation */
+.navigation{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 1%;
+}
+
+.navigation > ul{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav > li{
+    font-family: "Lexend", sans-serif;
+    font-size: 120%;
+    margin: 1%;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+a:hover{
+    color: #061b46;
+    text-shadow: 0 0 7px #fff,
+                0 0 42px rgb(12, 51, 38),
+                0 0 82px rgb(17, 66, 50),
+                0 0 92px #0fa,
+                0 0 102px #0fa;
+}
+
+/* divs */
+.learned{
+    font-family: "Shippori Antique B1", sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 1.5%;
+    max-width: 40%;
+    background-color: rgba(250, 235, 215, 0.219);
+    /* border: solid wheat; */
+    box-shadow: 4px 4px #00A4BD, 8px 8px #FF7A59, 12px 12px #334758;
+}
+
+.did-notLearned{
+    font-family: "Shippori Antique B1", sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 1.5%;
+    max-width: 40%;
+    /* border: solid wheat; */
+    background-color: rgba(250, 235, 215, 0.219);
+    box-shadow: 4px 4px #00A4BD, 8px 8px #FF7A59, 12px 12px #334758;
+}
+
+h1{
+    font-size: 2em;
+    color: aliceblue;
+}
+
+ol{
+    color: aliceblue;
+}
+
+li{
+    padding: 8px;
+}
+
